@@ -54,7 +54,6 @@ class Bucket
     static public function printSteps($steps)
     {
         $fullSteps = "";
-        $first = true;
         foreach ($steps as $step) {
             $fullSteps .= "(" . $step[0] . ", " . $step[1] . ")->";
         }
